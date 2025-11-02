@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TSW-104-07-F-D")(type "KiCad")(uri "${KIPRJMOD}/Library/TSW_104_07_F_D/TSW-104-07-F-D.kicad_sym")(options "")(descr ""))
+)
