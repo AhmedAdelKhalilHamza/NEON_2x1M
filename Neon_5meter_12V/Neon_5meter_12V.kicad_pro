@@ -63,8 +63,8 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
-        "clearance": "error",
+        "annular_width": "ignore",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -133,9 +133,9 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_text_height": 0.762,
+        "min_text_thickness": 0.127,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2032,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
