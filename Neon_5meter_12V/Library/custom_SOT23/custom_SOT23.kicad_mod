@@ -1,50 +1,175 @@
-
-(footprint SOT-23 (layer F.Cu) (tedit 690DE393)
-  (descr "<b>SOT23</b>")
-  (attr smd)
-  (fp_text reference REF** (at 0.3178825 -2.3523605 0) (layer F.SilkS)
-    (effects (font (size 0.700851181102 0.700851181102) (thickness 0.15)))
-  )
-  (fp_text value SOT-23 (at 0.762922 2.733803 0) (layer F.Fab)
-    (effects (font (size 0.700845669291 0.700845669291) (thickness 0.15)))
-  )
-  (pad 3 smd rect (at 0.0 -1.06) (size 1.016 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.95 1.06) (size 1.016 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 1 smd rect (at -0.95 1.06) (size 1.016 1.2) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 1.4605 0.254) (end 1.4605 -0.8) (layer F.SilkS) (width 0.127))
-  (fp_line (start 1.4605 -0.8) (end 0.6985 -0.8) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.6985 -0.8) (end -1.4605 -0.8) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.4605 -0.8) (end -1.4605 0.254) (layer F.SilkS) (width 0.127))
-  (fp_poly
-    (pts
-      (xy -0.228831 -1.4224)
-      (xy 0.2286 -1.4224)
-      (xy 0.2286 -0.839046)
-      (xy -0.228831 -0.839046)
-    ) (layer F.Fab) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy 0.71199 0.8382)
-      (xy 1.1684 0.8382)
-      (xy 1.1684 1.42398)
-      (xy 0.71199 1.42398)
-    ) (layer F.Fab) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy -1.1691 0.8382)
-      (xy -0.7112 0.8382)
-      (xy -0.7112 1.42325)
-      (xy -1.1691 1.42325)
-    ) (layer F.Fab) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy -1.45132 -0.8)
-      (xy 1.45 -0.8)
-      (xy 1.45 0.80073)
-      (xy -1.45132 0.80073)
-    ) (layer F.CrtYd) (width 0.01)
-  )
+(footprint "custom_SOT23"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>SOT23</b>")
+	(property "Reference" "REF**"
+		(at 0.317883 -2.352361 0)
+		(layer "F.SilkS")
+		(uuid "43ae6589-56a1-402e-9500-fdf194ac639b")
+		(effects
+			(font
+				(size 0.700851 0.700851)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23"
+		(at 0.762922 2.733803 0)
+		(layer "F.Fab")
+		(uuid "15b6aa93-3d4d-4105-a426-1ad330d0fac6")
+		(effects
+			(font
+				(size 0.700846 0.700846)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35da8e93-2a1e-4cf6-bf21-517fa037a00b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9147f49d-4067-4d8e-84cb-d78d790dcf09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4605 -0.8)
+		(end -1.4605 0.254)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d6f53f3-f351-43cc-b3c1-50696041811b")
+	)
+	(fp_line
+		(start -0.6985 -0.8)
+		(end -1.4605 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e54a0129-fb0f-401e-91d3-3d2414b94837")
+	)
+	(fp_line
+		(start 1.4605 -0.8)
+		(end 0.6985 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63e144f3-fc67-40e5-9cf0-915bdeabc05a")
+	)
+	(fp_line
+		(start 1.4605 0.254)
+		(end 1.4605 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "090758b8-9e3f-4110-9eab-137f0525fea9")
+	)
+	(fp_poly
+		(pts
+			(xy -1.45132 -0.8) (xy 1.45 -0.8) (xy 1.45 0.80073) (xy -1.45132 0.80073)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "8f398901-3746-427b-a07b-35571dff5c54")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1691 0.8382) (xy -0.7112 0.8382) (xy -0.7112 1.42325) (xy -1.1691 1.42325)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "836d92f4-c9c3-4a3c-a045-5f575510e905")
+	)
+	(fp_poly
+		(pts
+			(xy -0.228831 -1.4224) (xy 0.2286 -1.4224) (xy 0.2286 -0.839046) (xy -0.228831 -0.839046)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "0df02300-df2a-472e-bc31-cb85f0644de8")
+	)
+	(fp_poly
+		(pts
+			(xy 0.71199 0.8382) (xy 1.1684 0.8382) (xy 1.1684 1.42398) (xy 0.71199 1.42398)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "2ffa67b4-a246-47c0-986b-4f8652994b79")
+	)
+	(pad "1" smd rect
+		(at -0.95 1.06)
+		(size 1.016 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6257b7bf-fb9d-4fba-8cb1-bccfe4f930a9")
+	)
+	(pad "2" smd rect
+		(at 0.95 1.06)
+		(size 1.016 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ed2bb8df-9b34-4856-a4cb-74ffcd7a79d8")
+	)
+	(pad "3" smd rect
+		(at 0 -1.06)
+		(size 1.016 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9d0e679c-c2e9-4adb-b10d-ac39b64fafc8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/custom_SOT23/custom_SOT23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )
