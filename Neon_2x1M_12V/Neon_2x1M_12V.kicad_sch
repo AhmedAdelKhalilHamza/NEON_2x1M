@@ -5471,7 +5471,7 @@
 		)
 		(uuid "39623864-9258-4ecc-b9a1-39de09257cc4")
 	)
-	(text "for each LED (color):\nR = (Vsource - Vf) / I_Led\np_R = (Vsource - Vf) * I_Led\n\nPer LED current = 12 mA / 3 LEDs = 4.0 mA each.\n\nRed (Vf = 2.1 V)\nV_r = 12 − 2.1 = 9.9 V\nR = 9.9 / 0.015 = 660 Ω \nuse standard 680 Ω\nI = 9.9 / 680 Ω = 14.5 mAmp\nP_R = 9.9 * 0.0145 = 0.14355 W (1/4 W resistor fine)\n\nGreen (Vf = 2.8 V)\nV_r = 12 − 2.8 = 9.2 V\nR = 9.2 / 0.015 = 613.33 Ω \nuse standard  600Ω\nI = 9.2 / 600 Ω = 15.3 mAmp\nP_R = 9.2 * 0.0153 = 0.14076 W\n\nBlue (Vf = 3.2 V)\nsame as green "
+	(text "for each LED (color):\nR = (Vsource - Vf) / I_Led\np_R = (Vsource - Vf) * I_Led\n\nRed (Vf = 2.1 V)\nV_r = 12 − 2.1 = 9.9 V\nR = 9.9 / 0.015 = 660 Ω \nuse standard 680 Ω\nI = 9.9 / 680 Ω = 14.5 mAmp\nP_R = 9.9 * 0.0145 = 0.14355 W (1/4 W resistor fine)\n\nGreen (Vf = 2.8 V)\nV_r = 12 − 2.8 = 9.2 V\nR = 9.2 / 0.015 = 613.33 Ω \nuse standard  600Ω\nI = 9.2 / 600 Ω = 15.3 mAmp\nP_R = 9.2 * 0.0153 = 0.14076 W\n\nBlue (Vf = 2.8 V)\nsame as green "
 		(exclude_from_sim no)
 		(at 96.012 156.464 0)
 		(effects
@@ -5502,7 +5502,7 @@
 		)
 		(uuid "573ac26d-1806-4f1f-ad4e-e4de19e3c495")
 	)
-	(text "BLUE LED, Vf=3V:\nV accross resistor = 3.3 - 3 = 0.3V\nI = V/R = 0.3/2200 = 0.59mAmp"
+	(text "BLUE LED, Vf=3V:\nV accross resistor = 3.3 - 3 = 0.3V\nI = V/R = 0.3/1000 = 0.3mAmp"
 		(exclude_from_sim no)
 		(at 185.928 105.664 0)
 		(effects
@@ -8248,7 +8248,7 @@
 				)
 			)
 		)
-		(property "Value" "660 Ohm"
+		(property "Value" "680 Ohm"
 			(at 142.24 82.55 90)
 			(effects
 				(font
@@ -10931,7 +10931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "Si2302DS"
 			(at 114.808 119.634 0)
 			(effects
 				(font
@@ -10951,7 +10951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.vishay.com/docs/68645/si2302cds.pdf"
 			(at 114.3 121.92 0)
 			(effects
 				(font
@@ -10961,7 +10961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 109.22 118.11 0)
 			(effects
 				(font
@@ -10970,7 +10970,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_"
+		(property "link" "https://uge-one.com/product/si2302ds-sot23-general-purpose-n-channel-mosfet-smd-transistor-sot-23/"
 			(at 109.22 118.11 0)
 			(effects
 				(font
@@ -12739,7 +12739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "Si2302DS"
 			(at 114.808 80.264 0)
 			(effects
 				(font
@@ -12759,7 +12759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.vishay.com/docs/68645/si2302cds.pdf"
 			(at 114.3 82.55 0)
 			(effects
 				(font
@@ -12769,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -12778,7 +12778,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_"
+		(property "link" "https://uge-one.com/product/si2302ds-sot23-general-purpose-n-channel-mosfet-smd-transistor-sot-23/"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -12943,7 +12943,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k Ohm"
+		(property "Value" "1k Ohm"
 			(at 195.58 71.1199 0)
 			(effects
 				(font
@@ -13154,7 +13154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "Si2302DS"
 			(at 114.808 101.854 0)
 			(effects
 				(font
@@ -13174,7 +13174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.vishay.com/docs/68645/si2302cds.pdf"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -13184,7 +13184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 109.22 100.33 0)
 			(effects
 				(font
@@ -13193,7 +13193,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_"
+		(property "link" "https://uge-one.com/product/si2302ds-sot23-general-purpose-n-channel-mosfet-smd-transistor-sot-23/"
 			(at 109.22 100.33 0)
 			(effects
 				(font
